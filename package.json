@@ -1,11 +1,10 @@
 {
-  "name": "angular2-redux-starter",
+  "name": "ng2-dcl-test-case",
   "version": "0.1.0",
-  "description": "A boiler-plate setup for Angular 2/Redux applications",
+  "description": "Reduced test case to help with debugging Batarangle",
   "license": "MIT",
   "keywords": [
     "angular2",
-    "redux",
     "typescript"
   ],
   "engines": {
@@ -24,10 +23,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rangle/angular2-redux-starter.git"
+    "url": "https://github.com/rpdasilva/ng2-dcl-test-case.git"
   },
   "bugs": {
-    "url": "https://github.com/rangle/angular2-redux-starter/issues"
+    "url": "https://github.com/rpdasilva/ng2-dcl-test-case/issues"
   },
   "dependencies": {
     "angular2": "^2.0.0-beta.0",

@@ -1,6 +1,5 @@
-# Angular 2/TypeScript/Redux/Webpack Starter
-
-This is the initial version of our starter project using Angular 2.x, Redux, TypeScript and Webpack to tie it all together.
+# ng2-dcl-test-case
+Based on [https://github.com/rangle/angular2-redux-starter](Angular 2/TypeScript/Redux/Webpack Starter)
 
 ## Commands
 
