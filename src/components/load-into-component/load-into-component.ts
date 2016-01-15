@@ -20,6 +20,7 @@ export class LoadIntoComponent {
   }
 
   ngOnInit() {
-    this.dcl.loadIntoLocation(DynamicComponent, this.elementRef, 'anchor');
+    this.dcl.loadIntoLocation(DynamicComponent, this.elementRef, 'anchor')
+      .then(componentRef => console.log('loadIntoLocation', componentRef));
   }
 }

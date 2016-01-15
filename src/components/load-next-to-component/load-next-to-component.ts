@@ -13,6 +13,7 @@ import {ChildComponent} from '../child-component/child-component';
 export class LoadNextToComponent {
   constructor(dcl: DynamicComponentLoader,
     elementRef: ElementRef) {
-    dcl.loadNextToLocation(DynamicComponent, elementRef);
+    dcl.loadNextToLocation(DynamicComponent, elementRef)
+      .then(componentRef => console.log('loadNextToLocation', componentRef));
   }
 }
