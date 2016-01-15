@@ -1,4 +1,4 @@
-import {Component} from 'angular2/core';
+import {Component, ChangeDetectorRef} from 'angular2/core';
 import {ChildComponent} from '../child-component/child-component';
 
 @Component({
@@ -21,5 +21,11 @@ import {ChildComponent} from '../child-component/child-component';
   ]
 })
 export class DynamicComponent {
-
+  constructor(private cdr: ChangeDetectorRef) {
+    // When dcl.loadAsRoot is used, change detection needs to manually be called
+    // See: https://github.com/angular/angular/issues/6223
+    // setTimeout(() => {
+    //   cdr.detectChanges();
+    // });
+  }
 }

@@ -17,6 +17,6 @@ export class LoadAsRootComponent {
   constructor(dcl: DynamicComponentLoader,
     elementRef: ElementRef,
     injector: Injector) {
-    dcl.loadAsRoot(DynamicComponent, '#anchor', injector);
+    dcl.loadAsRoot(DynamicComponent, '#anchor', null);
   }
 }
