@@ -7,7 +7,7 @@ import {ChildComponent} from '../child-component/child-component';
     ChildComponent
   ],
   template: `
-    <div>
+    <div class="wrapper">
       <h1>Static component</h1>
       <c-comp></c-comp>
       <c-comp></c-comp>

@@ -3,16 +3,14 @@ import {DynamicComponent} from '../dynamic-component/dynamic-component';
 import {ChildComponent} from '../child-component/child-component';
 
 @Component({
-  selector: 'l-comp',
+  selector: 'lnt-comp',
   directives: [
     ChildComponent
   ],
   template: `
-    <div>
-      <h1>Loader component</h1>
-    </div>`
+    <h1>dcl.loadNextToLocation component</h1>`
 })
-export class LoaderComponent {
+export class LoadNextToComponent {
   constructor(dcl: DynamicComponentLoader,
     elementRef: ElementRef) {
     dcl.loadNextToLocation(DynamicComponent, elementRef);
